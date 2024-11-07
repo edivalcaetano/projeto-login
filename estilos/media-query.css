@@ -8,7 +8,7 @@
     lilás: #5f2c82
 */
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 700px) and (max-width: 992px) {
     body { /*Tablets*/
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
