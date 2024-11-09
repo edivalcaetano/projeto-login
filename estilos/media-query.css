@@ -8,14 +8,14 @@
     lilás: #5f2c82
 */
 
-@media screen and (min-width: 600px) and (max-width: 768px) { /*481*/
+@media screen and (min-width: 505px) and (max-width: 768px) { /*481*/
     body { /*Tablets*/  /* Smartphones maiores e tablets */
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
 
     section#login {
         width: 80vw;
-        height: 290px;
+        height: 300px;
     }
 
     div#imagem {
@@ -39,7 +39,7 @@
 
     section#login {
         width: 80vw;
-        height: 280px;
+        height: 290px;
     }
 
     div#imagem {
@@ -62,7 +62,7 @@
 
     section#login {
         width: 80vw;
-        height: 280px;
+        height: 290px;
     }
 
     div#imagem {
