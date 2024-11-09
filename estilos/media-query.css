@@ -8,8 +8,8 @@
     lilás: #5f2c82
 */
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
-    body { /*Tablets*/
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    body { /*Tablets*/  /* Smartphones maiores e tablets */
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
 
@@ -31,7 +31,53 @@
     
 }
 
-@media screen and (min-width: 992px) {
+@media (min-width: 769px) and (max-width: 1024px) {
+    /* Tablets em modo paisagem e laptops pequenos */
+    body {
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+
+    section#login {
+        width: 80vw;
+        height: 280px;
+    }
+
+    div#imagem {
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    div#formulario {
+        float: right;
+        width: 70%;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+    /* Laptops e desktops menores */
+    body {
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+
+    section#login {
+        width: 80vw;
+        height: 280px;
+    }
+
+    div#imagem {
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    div#formulario {
+        float: right;
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 1201px) {
     body { /*Telas Grandes*/
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
