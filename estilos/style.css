@@ -90,16 +90,17 @@ div.campo span {
     color: white;
     font-size: 2em;
     width: 30px;
-    margin-right: 5px; /* Espaçamento entre o ícone e o input */
+    margin-right: 3px; /* Espaçamento entre o ícone e o input */
 }
 
 div.campo input {
     background-color: #94cfcd;
     font-size: 1em;
+    width: 100%;
     height: 100%;
     border: 0px;
     border-radius: 8px;
-    padding: 4px;
+    padding: 2px;
     flex: 1; /* Expande o input para preencher o espaço restante */
 }
 

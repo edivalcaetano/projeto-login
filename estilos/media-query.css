@@ -28,10 +28,6 @@
         float: right;
         width: 70%;
     }
-
-    div.campo input {
-        min-width: 0; /* Evita que o input ultrapasse o contêiner */
-    }
     
 }
 
