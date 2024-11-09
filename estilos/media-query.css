@@ -8,7 +8,7 @@
     lilás: #5f2c82
 */
 
-@media screen and (min-width: 481px) and (max-width: 768px) {
+@media screen and (min-width: 600px) and (max-width: 768px) { /*481*/
     body { /*Tablets*/  /* Smartphones maiores e tablets */
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
