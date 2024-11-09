@@ -89,8 +89,8 @@ div.campo label {
 div.campo span {
     color: white;
     font-size: 2em;
-    width: 40px;
-    padding-right: 5px; /* Espaçamento entre o ícone e o input */
+    width: 30px;
+    margin-right: 5px; /* Espaçamento entre o ícone e o input */
 }
 
 div.campo input {
